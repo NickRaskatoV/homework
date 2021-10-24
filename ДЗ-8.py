@@ -27,6 +27,15 @@ durtation = halo_song + ets_song + clean_song
 durtation = float('{:.2f}'.format(durtation))
 print('Три песни звучат ', durtation, ' минут')
 
+one = violator_songs_list[3][1]
+two = violator_songs_list[5][1]
+three = violator_songs_list[8][1]
+longsong = one+two+three
+longsong = float('{:.2f}'.format(longsong))
+print(longsong)
+
+
+
 # Есть словарь песен группы Depeche Mode
 violator_songs_dict = {
     'World in My Eyes': 4.76,
